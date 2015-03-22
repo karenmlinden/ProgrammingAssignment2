@@ -17,7 +17,6 @@
 ##[1,] -2.0  1.0
 ##[2,]  1.5 -0.5
 
-
 ## Examples Run Code
 ## inv <- matrix(data = c(1,3,2,4), nrow = 2, ncol = 2)
 ## inv2 <- makeCacheMatrix(inv)
@@ -36,9 +35,8 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse<-function() m
         list(set=set, get=get,  ## creates a list the four functions
              setinverse=setinverse,
-             getinverse=getinverse)
+             getinverse=getinverse) 
 }
-
 
 ## cacheSolve computes the inverse of the matrix returned by makeCacheMatrix 
 
