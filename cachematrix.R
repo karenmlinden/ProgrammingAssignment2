@@ -1,5 +1,27 @@
 ## A pair of functions that cache the inverse of a matrix
 
+## Example Matrix
+## matrix A=
+##     [,1]  [,2]
+##[1,]  1.0  2.0
+##[2,]  2.0  4.0
+
+## work
+## A-1 = - 0.5
+##     [,1]  [,2]
+##[1,]  4.0 -2.0
+##[2,] -3.0  1.0
+
+## inverse A= 
+##     [,1]  [,2]
+##[1,] -2.0  1.0
+##[2,]  1.5 -0.5
+
+
+## Examples Run Code
+## inv <- matrix(data = c(1,3,2,4), nrow = 2, ncol = 2)
+## inv2 <- makeCacheMatrix(inv)
+## cacheSolve(inv2)
 
 ## makeCacheMatrix creates a matrix that cache its inverse.
 
